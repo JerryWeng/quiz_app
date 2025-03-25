@@ -6,8 +6,9 @@ import 'package:google_fonts/google_fonts.dart';
 class QuestionsScreen extends StatefulWidget {
   const QuestionsScreen({super.key, required this.onSelectedAnswer});
   final void Function(String answer) onSelectedAnswer;
+
   @override
-  State<QuestionsScreen> createState() {
+  State<StatefulWidget> createState() {
     return _QuestionsScreenState();
   }
 }
@@ -23,7 +24,7 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
   }
 
   @override
-  Widget build(context) {
+  Widget build(BuildContext context) {
     final currentQuestion = questions[currentQuestionIndex];
     return SizedBox(
       width: double.infinity,
@@ -36,8 +37,8 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
             Text(
               currentQuestion.text,
               style: GoogleFonts.lato(
-                color: Colors.white,
                 fontSize: 24,
+                color: Colors.white,
                 fontWeight: FontWeight.bold,
               ),
               textAlign: TextAlign.center,

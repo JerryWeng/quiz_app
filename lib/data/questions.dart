@@ -1,73 +1,57 @@
 import 'package:quiz_app/models/quiz_question.dart';
 
 const questions = [
-  QuizQuestion('What is my favorite color?', [
-    'Green',
-    'Red',
-    'Blue',
-    'Fuchsia',
+  QuizQuestion('Best resource to make rot.', [
+    'Light Bulbs',
+    'Meat',
+    'Berries',
+    'Twigs and Grass',
   ]),
 
-  QuizQuestion('Which planet is known as the Red Planet?', [
-    'Mars',
-    'Venus',
-    'Jupiter',
-    'Mercury',
+  QuizQuestion('Name all the seasonal bosses.', [
+    'Deerclops, Bearger, Moose Goose, Antlion',
+    'Deerclops, Ancient Guardian, Dragonfly',
+    'Klaus, Bee Queen, Toadstool',
+    'Bearger, Moose Goose, Crab King',
   ]),
 
-  QuizQuestion('What is the capital of Japan?', [
-    'Tokyo',
-    'Kyoto',
-    'Osaka',
-    'Hiroshima',
+  QuizQuestion('Which is the best character by far in terms of damage output', [
+    'Wolfgang',
+    'Willow',
+    'Wilson',
+    'Wendy',
   ]),
 
-  QuizQuestion('Who painted the Mona Lisa?', [
-    'Leonardo da Vinci',
-    'Vincent van Gogh',
-    'Pablo Picasso',
-    'Michelangelo',
+  QuizQuestion('What gaming company made Don\'t Starve Together?', [
+    'Klei Entertainment',
+    'Mojang Studios',
+    'Re-Logic',
+    'Facepunch Studios',
   ]),
 
-  QuizQuestion('Which animal is known as the King of the Jungle?', [
-    'Lion',
-    'Tiger',
-    'Elephant',
-    'Gorilla',
+  QuizQuestion('Kiting pattern for tentacles?', [
+    '2 hits, go back, 2 hits',
+    '1 hit, go back, 1 hit',
+    '3 hits, go back, 3 hits',
+    'You can tank it without getting hit',
   ]),
 
-  QuizQuestion('What is the largest ocean on Earth?', [
-    'Pacific Ocean',
-    'Atlantic Ocean',
-    'Indian Ocean',
-    'Arctic Ocean',
+  QuizQuestion('Which biome has naturally spawning gold to easily pick up?', [
+    'Mosaic',
+    'Forest',
+    'Desert',
+    'Caves',
   ]),
 
-  QuizQuestion('Which country is home to the kangaroo?', [
-    'Australia',
-    'New Zealand',
-    'South Africa',
-    'Brazil',
-  ]),
+  QuizQuestion(
+    'How many hits does it take to chop down a Totally Normal Tree with a regular axe?',
+    ['15 hits', '10 hits', '20 hits', '5 hits'],
+  ),
 
-  QuizQuestion('What is the main ingredient in guacamole?', [
-    'Avocado',
-    'Tomato',
-    'Cucumber',
-    'Onion',
-  ]),
-
-  QuizQuestion('Which element has the chemical symbol "O"?', [
-    'Oxygen',
-    'Gold',
-    'Osmium',
-    'Oganesson',
-  ]),
-
-  QuizQuestion('Who wrote the Harry Potter book series?', [
-    'J.K. Rowling',
-    'Stephen King',
-    'George R.R. Martin',
-    'Suzanne Collins',
+  QuizQuestion('How much health do Pierogies restore?', [
+    '40 health',
+    '20 health',
+    '60 health',
+    '30 health',
   ]),
 ];
